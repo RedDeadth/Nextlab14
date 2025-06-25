@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Ubicación del sitemap
-Sitemap: https://tu-dominio.com/sitemap.xml
+Sitemap: https://nextlab14-gada.vercel.app/sitemap.xml

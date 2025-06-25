@@ -1,6 +1,6 @@
 // src/app/sitemap.js
 
-const URL = 'https://nextlab14.vercel.app'; // ¡Importante! Usa tu dominio de Vercel aquí
+const URL = 'https://nextlab14-gada.vercel.app';
 
 // Simula la obtención de datos dinámicos (de un CMS o Base de Datos)
 async function getDynamicPosts() {
@@ -27,10 +27,6 @@ export default async function sitemap() {
     },
     {
       url: `${URL}/blog`,
-      lastModified: new Date().toISOString(),
-    },
-    {
-      url: `${URL}/contacto`,
       lastModified: new Date().toISOString(),
     },
   ];
