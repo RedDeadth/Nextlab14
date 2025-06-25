@@ -29,6 +29,10 @@ export default async function sitemap() {
       url: `${URL}/blog`,
       lastModified: new Date().toISOString(),
     },
+    {
+      url: `${URL}/contact`,
+      lastModified: new Date().toISOString(),
+    },
   ];
 
   return [...staticUrls, ...postUrls];
