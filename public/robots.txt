@@ -1,0 +1,6 @@
+# Permite a todos los bots (user-agents) rastrear el sitio.
+User-agent: *
+Allow: /
+
+# Ubicación del sitemap
+Sitemap: https://tu-dominio.com/sitemap.xml
